@@ -8,6 +8,8 @@ var router = express.Router();
 var mongoose = require('mongoose');
 var Comic = require('../models/comic.js');
 
+
+
 /* GET /comic listing. */
 router.get('/', function(req, res, next) {
     Comic.find(function (err, comic) {
@@ -48,7 +50,9 @@ router.post('/', function(req, res, next) {
 
     // If the call doesn't contain the field Title then
     // call was done incorrectly, throw error
-    if (req.body.toString().indexOf('Title') < 0){
+    var text = JSON.stringify(req.body);
+
+    if (text.indexOf('Title') < 0){
         res.json("Error: Given object was not a comic");
         return
     }
