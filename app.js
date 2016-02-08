@@ -5,8 +5,10 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+var mongoose = require('mongoose');
+
 var routes = require('./routes/index');
-var users = require('./routes/users');
+var api = require('./routes/api');
 
 var app = express();
 
@@ -23,7 +25,16 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/users', users);
+app.use('/Comic', api);
+
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://admin:G0teamcharbroiled@ds059155.mongolab.com:59155/heroku_5shzplr3', function(err) {
+  if(err) {
+    console.log('connection error', err);
+  } else {
+    console.log('connection successful');
+  }
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
