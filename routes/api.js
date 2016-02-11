@@ -51,7 +51,7 @@ router.post('/', function(req, res, next) {
     // If the call doesn't contain the field Title then
     // call was done incorrectly, throw error
     var text = JSON.stringify(req.body);
-
+	console.log(req.body)
     if (text.indexOf('Title') < 0){
         res.json("Error: Given object was not a comic");
         return
