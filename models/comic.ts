@@ -2,7 +2,9 @@
  * Created by Trevor Jackson on 04-Feb-2016.
  */
 /// <reference path="../typings/browser/ambient/mongoose/mongoose.d.ts"/>
-var mongoose = require('mongoose');
+
+import mongoose = require('mongoose');
+
 var ComicSchema = new mongoose.Schema({
     "Title": String,
     "Public": Boolean,
@@ -52,6 +54,5 @@ var ComicSchema = new mongoose.Schema({
         }
     }
 });
-module.exports = mongoose.model('Comic', ComicSchema);
+export = mongoose.model('Comic', ComicSchema);
 //module.exports = mongoose.model('Comic', ComicSchema);
-//# sourceMappingURL=comic.js.map
