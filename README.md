@@ -20,13 +20,13 @@ Definition of a Comic (JSON):<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  "Contributor_3": String,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  "Contributor_4": String,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  "Contributor_5": String<br>
-    },<br>
+&nbsp;&nbsp;&nbsp;},<br>
 &nbsp;&nbsp;&nbsp;"Panels": {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Panel_1": {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Image_URL": String,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Text": String<br>
 &nbsp;&nbsp;&nbsp;},<br>
- &nbsp;&nbsp;&nbsp;"Panel_2": {<br>
+&nbsp;&nbsp;&nbsp;"Panel_2": {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Image_URL": String,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Text": String<br>
 &nbsp;&nbsp;&nbsp;},<br>
