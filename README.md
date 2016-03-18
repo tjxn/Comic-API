@@ -2,6 +2,7 @@
 Used in Team Charbroiled's Comic Web App.
 <br>
 This API is run on glacial-retreat-45891.herokuapp.com and is written in Typescript.<br>
+<br>
 Libraries Used Include:<br>
 mongoose - http://mongoosejs.com/docs/<br>
 require - https://github.com/request/request
