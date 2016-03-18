@@ -6,6 +6,8 @@ This API is run on glacial-retreat-45891.herokuapp.com and is written in Typescr
 Libraries Used Include:<br>
 mongoose - http://mongoosejs.com/docs/<br>
 require - https://github.com/request/request
+<br>
+<br>
 </p>
 
 |            | GET                          | PUT                            | POST               | DELETE                         |
