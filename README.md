@@ -1,7 +1,10 @@
 <p>
 Used in Team Charbroiled's Comic Web App.
 <br>
-This API is run on glacial-retreat-45891.herokuapp.com
+This API is run on glacial-retreat-45891.herokuapp.com and is written in Typescript.<br>
+Libraries Used Include:<br>
+mongoose - http://mongoosejs.com/docs/<br>
+require - https://github.com/request/request
 </p>
 
 |            | GET                          | PUT                            | POST               | DELETE                         |
