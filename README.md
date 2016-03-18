@@ -12,52 +12,52 @@ This API is run on glacial-retreat-45891.herokuapp.com
 <p>
 Definition of a Comic (JSON):<br>
 {<br>
-    "Title": String,<br>
-    "Public": Boolean,<br>
-    "Contributors": {<br>
-        "Contributor_1": String,<br>
-        "Contributor_2": String,<br>
-        "Contributor_3": String,<br>
-        "Contributor_4": String,<br>
-        "Contributor_5": String<br>
+&nbsp;&nbsp;&nbsp; "Title": String,<br>
+&nbsp;&nbsp;&nbsp; "Public": Boolean,<br>
+&nbsp;&nbsp;&nbsp; "Contributors": {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  "Contributor_1": String,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  "Contributor_2": String,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  "Contributor_3": String,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  "Contributor_4": String,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  "Contributor_5": String<br>
     },<br>
-    "Panels": {<br>
-        "Panel_1": {<br>
-            "Image_URL": String,<br>
-            "Text": String<br>
-        },<br>
-        "Panel_2": {<br>
-            "Image_URL": String,<br>
-            "Text": String<br>
-        },<br>
-        "Panel_3": {<br>
-            "Image_URL": String,<br>
-            "Text": String<br>
-        },<br>
-        "Panel_4": {<br>
-            "Image_URL": String,<br>
-            "Text": String<br>
-        },<br>
-        "Panel_5": {<br>
-            "Image_URL": String,<br>
-            "Text": String<br>
-        },<br>
-        "Panel_6": {<br>
-            "Image_URL": String,<br>
-            "Text": String<br>
-        },<br>
-        "Panel_7": {<br>
-            "Image_URL": String,<br>
-            "Text": String<br>
-        },<br>
-        "Panel_8": {<br>
-            "Image_URL": String,<br>
-            "Text": String<br>
-        },<br>
-        "Panel_9": {<br>
-            "Image_URL": String,<br>
-            "Text": String<br>
-        }<br>
-    }<br>
+&nbsp;&nbsp;&nbsp;"Panels": {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Panel_1": {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Image_URL": String,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Text": String<br>
+&nbsp;&nbsp;&nbsp;},<br>
+ &nbsp;&nbsp;&nbsp;"Panel_2": {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Image_URL": String,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Text": String<br>
+&nbsp;&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;&nbsp;"Panel_3": {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Image_URL": String,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Text": String<br>
+&nbsp;&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;&nbsp;"Panel_4": {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Image_URL": String,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Text": String<br>
+&nbsp;&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;&nbsp;"Panel_5": {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Image_URL": String,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Text": String<br>
+&nbsp;&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;&nbsp;"Panel_6": {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Image_URL": String,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Text": String<br>
+&nbsp;&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;&nbsp;"Panel_7": {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Image_URL": String,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Text": String<br>
+&nbsp;&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;&nbsp;"Panel_8": {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Image_URL": String,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Text": String<br>
+&nbsp;&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;&nbsp;"Panel_9": {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Image_URL": String,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Text": String<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;&nbsp;}<br>
 }<br>
 </p>
